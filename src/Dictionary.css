@@ -1,0 +1,9 @@
+.searchForm {
+  text-align: center;
+  margin: 20px 0;
+}
+.btn {
+  margin-left: 5px;
+  padding: 3px 20px;
+  border-radius: 6px;
+}
