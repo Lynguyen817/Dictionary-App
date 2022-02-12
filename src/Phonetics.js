@@ -11,6 +11,7 @@ export default function Phonetics(props){
                src={props.phonetic.audio}
                autoPlay
                controls
+    
              />
             
         </div>
