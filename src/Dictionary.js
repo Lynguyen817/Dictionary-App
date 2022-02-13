@@ -1,7 +1,8 @@
 import axios from "axios";
 import React, {useState} from "react";
 import "./App.css";
-import "./Dictionary.css"
+import "./Dictionary.css";
+import "./index.css";
 import Results from "./Results";
 
 export default function Dictionary(){
@@ -13,22 +14,26 @@ function handleResponse(response){
   }
 function search(event){
     event.preventDefault();
-
-let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyWord}`;
-axios.get(apiUrl).then (handleResponse);
-}
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyWord}`;
+    axios.get(apiUrl).then (handleResponse);
+    }
 function handleKeywordChange(event){
     event.preventDefault();
     setKeyword(event.target.value);
-}
+   }
 return(
     <div className="searchForm">
+      <section>
         <form onSubmit={search}>
-          <input type="search" placeholder="Type a word.." size="25"
+          <input type="search" placeholder="Type a word.."
           autoFocus={true} onChange={handleKeywordChange}>
           </input>
-          <button type="submit" className="btn btn-primary">Search</button>
+          <button type="submit" className="btn btn-secondary">Search </button>
         </form>
+        <div className= "hints">
+          <em>suggested words: music, play, coffee ... </em>
+        </div>
+      </section>
         <Results results={results}/>
       </div>
 );

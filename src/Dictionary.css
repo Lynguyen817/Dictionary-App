@@ -7,3 +7,24 @@
   padding: 3px 20px;
   border-radius: 6px;
 }
+section {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 16px;
+  background: var(--primary-color);
+}
+input {
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 4px 6px;
+}
+.hints {
+  font-family: "Redressed", cursive;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 3px;
+  margin-left: 10px;
+}

@@ -1,1 +1,45 @@
-
+:root {
+  --box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  --primary-color: #f1e3b6;
+  --secondary-color: #e6650f;
+}
+body {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Redressed", cursive;
+  font-family: "Russo One", sans-serif;
+  background-image: url(../src/images/bookshelf.jpg);
+}
+@media (max-width: 900px) {
+  .App .header {
+    font-size: 60px;
+  }
+  .App h2 {
+    font-size: 20px;
+  }
+  .App footer {
+    font-size: 15px;
+  }
+  section {
+    max-width: 350px;
+  }
+  input {
+    width: 200px;
+  }
+  section .btn {
+    display: none;
+  }
+  section .hints {
+    font-size: 14px;
+  }
+  .Result h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .Phonetics .audio {
+    width: 85%;
+  }
+  .Meaning h3 {
+    font-size: 20px;
+  }
+}

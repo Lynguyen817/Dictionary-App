@@ -7,11 +7,17 @@ function App() {
     <div className="App">
       <div className="container">
       <header className="header">
-        Dictionary App
+        Dictionary 
       </header>
-      <Dictionary/>
+      
+      <h2 className="text-center mt-4">
+      What word do you want to look up?
+      </h2>
+      <Dictionary />
       <footer className="contact text-center">
-        This website was built by <a href="https://github.com/Lynguyen817/Dictionary-App/tree/main/src">Ly Nguyen</a>
+        <em>This website was built by <a href="https://portfolio-project-lynguyen.netlify.app/about.html" target="_blank" rel="noreferrer">Ly Nguyen ,</a>
+       {" "}opened-source on <a href="https://github.com/Lynguyen817/Dictionary-App" targer="_blank" rel="nonreferrer">GitHub</a>
+        </em>
       </footer>
       </div>
     </div>

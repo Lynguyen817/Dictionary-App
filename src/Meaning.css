@@ -1,0 +1,11 @@
+h3 {
+  color: var(--secondary-color);
+}
+.sentence {
+  color: var(--secondary-color);
+}
+.example,
+.synonyms {
+  font-family: "Redressed", cursive;
+  font-size: 20px;
+}
