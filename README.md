@@ -4,9 +4,9 @@ Welcome to the Dictionary App project, a simple web application for looking up w
 # Dependencies
 This project uses the following dependencies:
 
-React: A JavaScript library for building user interfaces.
-Axios: A promise-based HTTP client for making API requests.
-Bootstrap: A popular CSS framework for styling the application.
+- React: A JavaScript library for building user interfaces.
+- Axios: A promise-based HTTP client for making API requests.
+- Bootstrap: A popular CSS framework for styling the application.
 
 # Features
 Search for word definitions using the Dictionary API.
