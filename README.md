@@ -1,3 +1,18 @@
+# Dictionary App
+Welcome to the Dictionary App project, a simple web application for looking up word definitions and images related to the word you search. It utilizes the Dictionary API to fetch word definitions and the Pexels API to display images.
+
+# Dependencies
+This project uses the following dependencies:
+
+React: A JavaScript library for building user interfaces.
+Axios: A promise-based HTTP client for making API requests.
+Bootstrap: A popular CSS framework for styling the application.
+
+# Features
+Search for word definitions using the Dictionary API.
+View suggested words for searching.
+Display images related to the word using the Pexels API.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
